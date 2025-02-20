@@ -1,4 +1,4 @@
-FROM maven:3.9.6-amazoncorretto-21-debian as build
+FROM maven:3.9.6-amazoncorretto-21-debian AS build
 
 COPY src /app/src
 COPY pom.xml /app
